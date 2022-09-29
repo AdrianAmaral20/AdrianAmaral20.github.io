@@ -1,13 +1,11 @@
 {
   "name": "eventos-dom",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "build": "webpack --mode production ./js/script.js -o ./main.js",
     "dev": "webpack --mode development --watch ./js/script.js -o ./main.js"
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.19.3",
